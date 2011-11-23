@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>net.planettelex.jquery</groupId>
-	<artifactId>jquery-linkify</artifactId>
-	<name>jQuery Linkify</name>
+	<artifactId>jquery-textmeter</artifactId>
+	<name>jQuery TextMeter</name>
 	<version>0.0.1-SNAPSHOT</version>
-	<description>Linkify plugin for jQuery</description>
+	<description>Text Meter plugin for jQuery</description>
 
 	<inceptionYear>2010</inceptionYear>
 	<organization>
@@ -97,9 +97,11 @@
 				<version>1.8.0</version>
 				<configuration>
 					<header>etc/header.txt</header>
+					<strictCheck>true</strictCheck>
 					<excludes>
 						<exclude>**/jquery-1*.js</exclude>
 						<exclude>**/LICENSE*</exclude>
+						<exclude>**/.gitignore</exclude>
 					</excludes>
 				</configuration>
 				<executions>
@@ -114,9 +116,9 @@
 	</build>
 
 	<scm>
-		<connection>scm:git:git://github.com/PlanetTelexInc/jquery-linkify.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:PlanetTelexInc/jquery-linkify.git</developerConnection>
-		<url>http://github.com/PlanetTelexInc/jquery-linkify</url>
+		<connection>scm:git:git://github.com/PlanetTelexInc/jquery-textmeter.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:PlanetTelexInc/jquery-textmeter.git</developerConnection>
+		<url>http://github.com/PlanetTelexInc/jquery-textmeter</url>
 	</scm>
 
 	<distributionManagement>

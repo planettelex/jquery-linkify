@@ -29,7 +29,7 @@
 		<fileSet>
 			<directory>Webroot/Javascript</directory>
 			<includes>
-				<include>jquery.linkify.*</include>
+				<include>jquery.textmeter.*</include>
 			</includes>
 			<outputDirectory>/</outputDirectory>
 		</fileSet>
