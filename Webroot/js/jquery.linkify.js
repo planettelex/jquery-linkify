@@ -60,7 +60,7 @@
 		settings = $.extend({
 			className: "linkified",
 			target: "_self",
-			nofollow: "true"
+			nofollow: false
 		}, settings);
 		
 		var nofollow = settings.nofollow ? ' rel="nofollow"' : "";

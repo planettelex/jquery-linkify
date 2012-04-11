@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2010 Planet Telex Inc. all rights reserved.
+ * Copyright (c) 2012 Planet Telex Inc. all rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,89 +14,78 @@
  * limitations under the License.
  */
 
-﻿#container {
-	width: 90%;
-	margin: 10px auto;
-	background-color: #FFF;
-	color: #333;
-	border: 1px solid gray;
-	line-height: 130%;
+/* Elements */
+header {
+    position: relative;
+    width: 500px;
+    margin: 30px auto 50px;
+}
+header a {
+    color: gray;
+    position: absolute;
+    z-index: 1000;
+}
+header a:hover {
+    color: black;
+    cursor: pointer;
+}
+header h1 a {
+    font-family: Arial, Sans-Serif;
+    font-size: 18px;
+    font-style: italic;
+    position: absolute;
+    bottom: 29px;
+    left: 445px;
+    text-decoration: none;
+}
+header h2 {
+    font-family: Arial, Sans-Serif;
+    font-size: 16px;
+    font-style: italic;
+    position: absolute;
+    bottom: 6px;
+    left: 240px;
+    width: 300px;
+    font-weight: normal;
+}
+h3 {
+    font-family: Arial, Sans-Serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+p {
+    padding: 10px 5px;
+    line-height: 24px;
 }
 
-#top {
-	padding: .5em;
-	background-color: #006699;
-	border-bottom: 1px solid gray;
-	color: #FFF;
+/* Classes */
+.hidden {
+    display: none;
+}
+.clear {
+    clear: both;
 }
 
-#top h1 {
-	padding: 0;
-	margin: 0;
-}
-
-#leftnav {
-	float: left;
-	width: 160px;
-	margin: 0;
-	padding: 1em;
-}
-
+/* IDs */
 #content {
-	margin-left: 200px;
-	border-left: 1px solid gray;
-	padding: 1em;
-	max-width: 36em;
+    font-family: Arial, Sans-Serif;
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #999999;
+    border-radius: 20px;
 }
-
-#footer {
-	clear: both;
-	margin: 0;
-	padding: .5em;
-	color: #FFF;
-	background-color: #006699;
-	border-top: 1px solid gray;
+#content a {
+    color: blue;
+    text-decoration: underline;
 }
-
-#leftnav p {
-	clear: both;
-	margin: 0 0 1em 0;
-}
-
-#leftnav span {
-	display: block;
-	text-decoration: underline;
-	cursor: pointer;
-	font-size: 1em;
-}
-
-#leftnav span:hover {
-	color: #006699;
-}
-
-#leftnav span:active {
-	color: #660099;
-}
-
-#content h2 {
-	margin: 0 0 .5em 0;
-}
-
-#leftnav a {
-	color: #000;
-}
-
-#leftnav a:hover {
-	color: #006699;
-}
-
-a.linkified {
-	display: inline;
-	text-decoration: none;
-	color: #FFF;
-	background-color: #006699;
-}
-
-a:hover.linkified {
-	text-decoration: underline;
+#linkify {
+    display: block;
+    font-family: Arial, Sans-Serif;
+    font-size: 14px;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 4px;
+    right: 128px;
 }

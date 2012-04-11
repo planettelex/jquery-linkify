@@ -20,7 +20,7 @@
                         <xsl:value-of select="Documentation/Overview" disable-output-escaping="yes" />
                     </div>
                     <div id="Options">
-                        <xsl:for-each select="Option">
+                        <xsl:for-each select="Documentation/Options/Option">
                             <div>
                                 <h5><xsl:value-of select="@Name" /></h5>
                                 <strong><xsl:value-of select="@Type" /></strong>
