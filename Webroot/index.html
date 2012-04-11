@@ -1,6 +1,6 @@
 <!--
 
-    Copyright (c) 2010 Planet Telex Inc. all rights reserved.
+    Copyright (c) 2012 Planet Telex Inc. all rights reserved.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -15,14 +15,13 @@
     limitations under the License.
 
 -->
-
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
 <head>
 	<title>jQuery Linkify Plugin</title>
-	<link rel="Stylesheet" href="Css/site.css" type="text/css" />
-	<script language="javascript" src="Javascript/jquery-1.4.2.min.js" type="text/javascript"></script>
-	<script language="javascript" src="Javascript/jquery.linkify.js" type="text/javascript"></script>
+	<link href="css/site.css" type="text/css" rel="stylesheet" />
+	<script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script src="js/jquery.linkify.js" type="text/javascript"></script>
 </head>
 <body>
 	<div id="container">
@@ -31,7 +30,6 @@
 		</div>
 		<div id="leftnav">
 			<span id="doLinkify">Do Linkify</span>
-			<span><a href="jsdoc/symbols/%24.fn.html">Linkify JSDoc</a></span>
 		</div>
 		<div id="content">
 			<h2>Text to be Linkified!</h2>
@@ -55,14 +53,12 @@
 				mailto:someone@microsoft.com
 			</p>
 		</div>
-		<div id="footer">copyright 2010 planet telex inc.</div>
-		<script language="javascript" type="text/javascript">
+		<div id="footer">copyright 2012 planet telex inc.</div>
+		<script type="text/javascript">
 			$(document).ready(function() {
-
 				$("#doLinkify").click(function() {
 					$("#content").linkify({target:"_blank"});
 				});
-
 			});
 		</script>
 	</div>

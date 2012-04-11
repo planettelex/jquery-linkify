@@ -36,6 +36,13 @@
   <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\site.css" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery-1.4.2.min.js" />
+    <Content Include="js\jquery.linkify.js" />
+    <Content Include="js\jquery.linkify.min.js" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
