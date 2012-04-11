@@ -2,3 +2,8 @@
 .project
 /target
 .DS_Store
+/Webroot/bin
+/Webroot/obj
+/Webroot/Properties
+*.suo
+/_ReSharper.jquery-pt-linkify
