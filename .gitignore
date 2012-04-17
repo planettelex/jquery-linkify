@@ -1,9 +1,12 @@
 .settings
 .project
-/target
+target
 .DS_Store
-/Webroot/bin
-/Webroot/obj
-/Webroot/Properties
+bin
+obj
+Properties
 *.suo
-/_ReSharper.jquery-pt-linkify
+_ReSharper.jquery-pt-linkify
+*.user
+.classpath
+.checkstyle
