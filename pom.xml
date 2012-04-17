@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>net.planettelex.jquery</groupId>
-	<artifactId>jquery-linkify</artifactId>
+	<artifactId>jquery-pt-linkify</artifactId>
 	<name>jQuery Linkify</name>
 	<version>0.0.1-SNAPSHOT</version>
 	<description>Linkify plugin for jQuery</description>
