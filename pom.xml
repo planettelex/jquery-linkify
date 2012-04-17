@@ -5,7 +5,7 @@
     <groupId>net.planettelex.jquery</groupId>
     <artifactId>jquery-pt-linkify</artifactId>
     <name>Planet Telex jQuery Linkify</name>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <description>Linkify plugin for jQuery</description>
 
     <inceptionYear>2010</inceptionYear>
@@ -252,9 +252,9 @@
     </build>
 
     <scm>
-        <connection>scm:git:git://github.com/PlanetTelexInc/jquery-ui-pt-coverflow.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:PlanetTelexInc/jquery-ui-pt-coverflow.git</developerConnection>
-        <url>https://github.com/PlanetTelexInc/jquery-ui-pt-coverflow</url>
+        <connection>scm:git:git://github.com/PlanetTelexInc/jquery-pt-linkify.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:PlanetTelexInc/jquery-pt-linkify.git</developerConnection>
+        <url>https://github.com/PlanetTelexInc/jquery-pt-linkify</url>
     </scm>
 
     <distributionManagement>
