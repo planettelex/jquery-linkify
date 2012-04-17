@@ -6,7 +6,7 @@
     <artifactId>jquery-pt-linkify</artifactId>
     <name>Planet Telex jQuery Linkify</name>
     <version>1.0</version>
-    <description>Linkify plugin for jQuery</description>
+    <description>A jQuery plugin to simply and easily convert plain text URLs into HTML links.</description>
 
     <inceptionYear>2010</inceptionYear>
     <organization>
