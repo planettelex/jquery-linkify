@@ -1,10 +1,10 @@
 # Build command utilizing Maven
 Execute these commands from a terminal prompt within the project directory.
 
-## Building the jquery.ui.pt_coverflow-combined.min.js
+## Adding or updating the license in files.
 Execute the following command.
 
-    $> mvn process-resources -Pcombine
+    $> mvn license:format
 
 ## Packaging for release
 Execute the following command.
