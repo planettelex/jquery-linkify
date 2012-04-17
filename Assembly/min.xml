@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright (c) 2010 Planet Telex Inc. all rights reserved.
+    Copyright (c) 2012 Planet Telex Inc. all rights reserved.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -16,22 +16,21 @@
     limitations under the License.
 
 -->
-
 <assembly
-	xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.1"
+	xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.1 http://maven.apache.org/xsd/assembly-1.1.1.xsd">
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
 	<id>min</id>
 	<formats>
 		<format>zip</format>
 	</formats>
 	<fileSets>
 		<fileSet>
-			<directory>Webroot/Javascript</directory>
+			<directory>${js.build.dir}</directory>
 			<includes>
-				<include>jquery.linkify.*</include>
+				<include>*.min.js</include>
 			</includes>
-			<outputDirectory>/</outputDirectory>
+			<outputDirectory>/js</outputDirectory>
 		</fileSet>
 	</fileSets>
 </assembly>

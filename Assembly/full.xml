@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright (c) 2010 Planet Telex Inc. all rights reserved.
+    Copyright (c) 2012 Planet Telex Inc. all rights reserved.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -16,28 +16,38 @@
     limitations under the License.
 
 -->
-
 <assembly
-	xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.1"
+	xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.1 http://maven.apache.org/xsd/assembly-1.1.1.xsd">
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
 	<id>full</id>
 	<formats>
 		<format>zip</format>
 	</formats>
 	<fileSets>
 		<fileSet>
-			<useStrictFiltering>true</useStrictFiltering>
+			<directory>${webroot.build.dir}</directory>
 			<includes>
-				<include>Webroot/**</include>
+                <include>/**</include>
 			</includes>
+			<excludes>
+                <exclude>**/${project.artifactId}.js</exclude>
+				<exclude>**/Properties/**</exclude>
+				<exclude>**/aspnet_client/**</exclude>
+				<exclude>**/bin/**</exclude>
+				<exclude>**/obj/**</exclude>
+				<exclude>**/*.user</exclude>
+				<exclude>**/*.csproj</exclude>
+				<exclude>**/header*.txt</exclude>
+			</excludes>
+			<outputDirectory>${webroot.src.dir}</outputDirectory>
 		</fileSet>
 		<fileSet>
 			<directory>${project.build.directory}</directory>
 			<includes>
 				<include>jsdoc/**</include>
 			</includes>
-			<outputDirectory>Webroot</outputDirectory>
+            <outputDirectory>/</outputDirectory>
 		</fileSet>
 	</fileSets>
 </assembly>
