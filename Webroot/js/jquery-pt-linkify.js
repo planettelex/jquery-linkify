@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2012 Planet Telex Inc. all rights reserved.
+ * Copyright (c) 2015 Planet Telex Inc. all rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,31 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-/**
- * @fileOverview Contains the Linkify plugin code.
- * @author <a href="mailto:dan@planettelex.net">Dan Hansen</a>
- */
-
-/**
- * See (<a href="http://jquery.com">http://jquery.com</a>).
- * @name $
- * @class 
- * <p>See the jQuery Library API (<a href="http://api.jquery.com/jQuery/">http://api.jquery.com/jQuery/</a>)
- * for full details.  This documentation only covers the functions and classes that are added to
- * jQuery by the Linkify plugin.</p>
- */
-
-/**
- * See (<a href="http://jquery.com">http://jquery.com</a>).
- * @name $.fn
- * @class 
- * <p>The Linkify plugin interface. See jQuery (<a href="http://docs.jquery.com/Plugins/Authoring">http://docs.jquery.com/Plugins/Authoring</a>)
- * for the full details on authoring plugins.  This documentation only covers the functions and classes that are added to
- * jQuery by the Linkify plugin.</p>
- * 
- * @memberOf $
- */
-
 (function($) {
 	
 	var url1 = /(^|&lt;|\s)(www\..+?\..+?)(\s|&gt;|$)/g, url2 = /(^|&lt;|\s)(((https?|ftp):\/\/|mailto:).+?)(\s|&gt;|$)/g;
