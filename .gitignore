@@ -1,0 +1,12 @@
+.settings
+.project
+target
+.DS_Store
+bin
+obj
+Properties
+*.suo
+_ReSharper.jquery-pt-linkify
+*.user
+.classpath
+.checkstyle

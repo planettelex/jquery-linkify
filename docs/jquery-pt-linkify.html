@@ -1,0 +1,94 @@
+<!--
+
+    Copyright (c) 2012 Planet Telex Inc. all rights reserved.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="jQueryDocumentation">
+      <div id="Example">
+
+        <div id="content">
+            <h3>Text to be Linkified</h3>
+            <p>
+                It doesn't matter if the URLs included in the text have the schema included, as in http://www.google.com or not,
+                as in www.planettelex.net . PT Linkify will also recognize IP addresses in links, such as ftp://127.0.0.1.
+            </p>
+            <p>
+                In addition to HTTP, HTTPS, and FTP URLs, PT Linkify will also recognize and link MAILTO links, such as:
+                mailto:someone@email.com. Click the link above to see it in action!
+            </p>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $("#content").linkify({ target: "_blank" });
+            });
+	    </script>
+
+    </div>
+      <div id="API">
+        <div id="Overview">
+
+        <p>Creates HTML links out of unlinked URLs in a selection of text.</p>
+        <p>Basic usage:</p>
+        <pre>
+            jQuery(document).ready(function(){
+                $(".selector").linkify();
+            });
+        </pre>
+
+    </div>
+        <div id="Options">
+          <div>
+            <h5>className</h5><strong>String</strong><span>linkified</span></div>
+          <p>The CSS class to assign to links added by Linkify.</p>
+          <div class="example">
+
+                <p>Linkify specifying the CSS class of added links.</p>
+                <pre>
+                    $(".selector").linkify({ className: "myClass" });
+                </pre>
+
+            </div>
+          <div>
+            <h5>target</h5><strong>String</strong><span>_self</span></div>
+          <p>The target to assign to links added by Linkify.</p>
+          <div class="example">
+
+                <p>Linkify specifying the target of added links.</p>
+                <pre>
+                    $(".selector").linkify({ target: "_blank" });
+                </pre>
+
+            </div>
+          <div>
+            <h5>nofollow</h5><strong>Boolean</strong><span>false</span></div>
+          <p>Whether to add a nofollow relationship to links added by Linkify.</p>
+          <div class="example">
+
+                <p>Linkify specifying whether to add nofollow to added links.</p>
+                <pre>
+                    $(".selector").linkify({ nofollow: true });
+                </pre>
+
+            </div>
+        </div>
+        <div id="Events"></div>
+        <div id="Methods"></div>
+      </div>
+    </div>
+  </body>
+</html>
