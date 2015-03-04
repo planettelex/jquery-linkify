@@ -4,7 +4,7 @@
 ![4]
 A jQuery plugin to quickly and easily wrap plain text URLS and IP addresses in HTML a tags.
 
-### [Demos and Documentation][1]
+### [Demos and Documentation][2]
 
 #### Requirements
 * jQuery 1.6+
@@ -55,7 +55,7 @@ Add the JavaScript to your page to hook up PT Linkify to your container.
     	});
     </script>
 
-See the accompanying [demo][2] for a more complete example or view [this code][3] hosted on GitHub.
+See the accompanying GitHub hosted [demo][3] for a more complete example.
 
 #### License
 
@@ -80,6 +80,6 @@ See the accompanying [demo][2] for a more complete example or view [this code][3
     limitations under the License.
 
 [1]: http://www.planettelex.com
-[2]: http://www.planettelex.com/products/jquery/pt-linkify/demo
-[3]: http://planettelexinc.github.io/jquery-pt-linkify
-[4]: http://planettelexinc.github.io/jquery-pt-linkify/images/demo.png
+[2]: http://www.planettelex.com/products/jquery-linkify
+[3]: http://planettelexinc.github.io/jquery-linkify
+[4]: http://planettelexinc.github.io/jquery-linkify/images/demo.png
