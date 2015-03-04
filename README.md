@@ -77,5 +77,5 @@ Add the JavaScript to linkify the text in the HTML container:
 
 [1]: http://www.planettelex.com
 [2]: http://www.planettelex.com/products/jquery-linkify
-[3]: http://planettelexinc.github.io/jquery-linkify
-[4]: http://planettelexinc.github.io/jquery-linkify/images/demo.png
+[3]: http://planettelex.github.io/jquery-linkify
+[4]: http://planettelex.github.io/jquery-linkify/images/demo.png
