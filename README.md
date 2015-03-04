@@ -5,17 +5,17 @@
 A jQuery plugin to quickly and easily wrap plain text URLs and IP addresses in HTML a tags.
 #### [View Demos and Complete Documentation][2]
 
-#### Requirements
+#### Requirements:
 * jQuery 1.6+
 
-#### Features
+#### Features:
 
 * Identifies links without needing a protocol prefix like "http://".
 * Identifies MAILTO links.
 * Identifies IP addresses.
 
 
-#### Quick start
+#### Quick Start:
 
 
 ##### Step 1
@@ -55,11 +55,11 @@ Add the JavaScript to linkify the text in the HTML container:
 
 #### License
 
-##### Major components:
+##### Major Components:
 
 * jQuery: MIT/GPL license
 
-##### Everything else:
+##### Everything Else:
 
     Copyright 2015 Planet Telex, Inc.
 
