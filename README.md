@@ -55,7 +55,7 @@ Add the JavaScript to your page to hook up jQuery Linkify to your container:
     	});
     </script>
 
-[See the demo][3] for the complete example.
+[View the live demo][3] for a complete example.
 
 #### License
 
