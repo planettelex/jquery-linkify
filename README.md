@@ -21,12 +21,9 @@ A jQuery plugin to quickly and easily wrap plain text URLS and IP addresses in H
 
 ##### Step 1
 
-Include jQuery in your HTML:
+Include jQuery and jQuery Linkify in your HTML:
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-
-Include jQuery Linkify in your HTML:
-
 	<script type="text/javascript" src="js/jquery-linkify.min.js"></script>
 
 ##### Step 2
