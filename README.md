@@ -2,7 +2,7 @@
 #### by [Planet Telex][1]
 
 ![4]
-Use jQuery to quickly and easily wrap plain text URLS and IP addresses in HTML a tags.
+A jQuery plugin to quickly and easily wrap plain text URLS and IP addresses in HTML a tags.
 
 ### [Demos and Documentation][1]
 
