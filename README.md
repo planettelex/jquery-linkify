@@ -12,6 +12,7 @@ Use jQuery to quickly and easily wrap plain text URLS and IP addresses in HTML a
 #### Features
 
 * Identifies links without needing a protocol prefix like "http://".
+* Identifies MAILTO links.
 * Identifies IP addresses.
 
 
