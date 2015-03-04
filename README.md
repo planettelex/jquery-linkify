@@ -21,13 +21,13 @@ A jQuery plugin to quickly and easily wrap plain text URLS and IP addresses in H
 
 ##### Step 1
 
-Include jQuery in your HTML.
+Include jQuery in your HTML:
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 
-Include PT Linkify in your HTML.
+Include jQuery Linkify in your HTML:
 
-	<script type="text/javascript" src="js/jquery-pt-linkify.js"></script>
+	<script type="text/javascript" src="js/jquery-linkify.min.js"></script>
 
 ##### Step 2
 
@@ -37,17 +37,17 @@ Have text with URLs or IP addresses in your HTML:
         <h3>Text to be Linkified</h3>
         <p>
             It doesn't matter if the URLs included in the text have the schema included, as in http://www.google.com or not,
-            as in www.planettelex.com . PT Linkify will also recognize IP addresses in links, such as ftp://127.0.0.1.
+            as in www.planettelex.com . jQuery Linkify will also recognize IP addresses in links, such as ftp://127.0.0.1.
         </p>
         <p>
-            In addition to HTTP, HTTPS, and FTP URLs, PT Linkify will also recognize and link MAILTO links, such as:
+            In addition to HTTP, HTTPS, and FTP URLs, jQuery Linkify will also recognize and link MAILTO links, such as:
             mailto:someone@email.com.
         </p>
     </div>
 
 ##### Step 3
 
-Add the JavaScript to your page to hook up PT Linkify to your container.
+Add the JavaScript to your page to hook up jQuery Linkify to your container:
 
     <script type="text/javascript">
         $(function () {
@@ -55,7 +55,7 @@ Add the JavaScript to your page to hook up PT Linkify to your container.
     	});
     </script>
 
-See the accompanying GitHub hosted [demo][3] for a more complete example.
+[See the demo][3] for the complete example.
 
 #### License
 
