@@ -2,9 +2,8 @@
 #### by [Planet Telex][1]
 
 ![4]
-A jQuery plugin to quickly and easily wrap plain text URLS and IP addresses in HTML a tags.
-
-### [Demos and Documentation][2]
+A jQuery plugin to quickly and easily wrap plain text URLs and IP addresses in HTML a tags.
+#### [View Demos and Complete Documentation][2]
 
 #### Requirements
 * jQuery 1.6+
@@ -21,7 +20,7 @@ A jQuery plugin to quickly and easily wrap plain text URLS and IP addresses in H
 
 ##### Step 1
 
-Include jQuery and jQuery Linkify in your HTML:
+Include jQuery and jQuery Linkify:
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-linkify.min.js"></script>
@@ -44,7 +43,7 @@ Have text with URLs or IP addresses in your HTML:
 
 ##### Step 3
 
-Add the JavaScript to your page to hook up jQuery Linkify to your container:
+Add the JavaScript to linkify the text in the HTML container:
 
     <script type="text/javascript">
         $(function () {
@@ -52,7 +51,7 @@ Add the JavaScript to your page to hook up jQuery Linkify to your container:
     	});
     </script>
 
-[View the live demo][3] for a complete example.
+[See the demo in action][3] for a complete example.
 
 #### License
 
