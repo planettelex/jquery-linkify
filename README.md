@@ -2,7 +2,7 @@
 #### by [Planet Telex][1]
 
 ![4]
-Use jQuery to quickly and easily wrap plain text URLS and IP addresses in <a> tags.
+Use jQuery to quickly and easily wrap plain text URLS and IP addresses in HTML a tags.
 
 ### [Demos and Documentation][1]
 
@@ -11,7 +11,7 @@ Use jQuery to quickly and easily wrap plain text URLS and IP addresses in <a> ta
 
 #### Features
 
-* Identifies links without needing a protocol prefix like "http://"
+* Identifies links without needing a protocol prefix like "http://".
 * Identifies IP addresses.
 
 
@@ -26,7 +26,7 @@ Include jQuery in your HTML.
 
 Include PT Linkify in your HTML.
 
-	<script type="text/javascript" src="js/jquery-ui-pt-imagemapper.js"></script>
+	<script type="text/javascript" src="js/jquery-pt-linkify.js"></script>
 
 ##### Step 2
 
@@ -36,11 +36,11 @@ Have text with URLs or IP addresses in your HTML:
         <h3>Text to be Linkified</h3>
         <p>
             It doesn't matter if the URLs included in the text have the schema included, as in http://www.google.com or not,
-            as in www.planettelex.net . PT Linkify will also recognize IP addresses in links, such as ftp://127.0.0.1.
+            as in www.planettelex.com . PT Linkify will also recognize IP addresses in links, such as ftp://127.0.0.1.
         </p>
         <p>
             In addition to HTTP, HTTPS, and FTP URLs, PT Linkify will also recognize and link MAILTO links, such as:
-            mailto:someone@email.com. Click the link above to see it in action!
+            mailto:someone@email.com.
         </p>
     </div>
 
@@ -50,9 +50,7 @@ Add the JavaScript to your page to hook up PT Linkify to your container.
 
     <script type="text/javascript">
         $(function () {
-    		$("#linkify").click(function () {
-    		    $("#content").linkify({ target: "_blank" });
-    		});
+			$("#content").linkify({ target: "_blank" });
     	});
     </script>
 
